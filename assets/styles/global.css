@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: sculpin, Arial;
+}
+.container {
+    display: block;
+    margin: auto;
+    max-width: 1182px;
+    width: 100%;
+    overflow: hidden;
+}
+@media(max-width: 1232px) {
+    .container {
+        padding: 0 25px;
+    }
+}

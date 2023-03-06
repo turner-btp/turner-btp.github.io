@@ -1,0 +1,11 @@
+.arrow-link {
+    color: #215398;
+    text-decoration: none;
+}
+.arrow-link:hover {
+    text-decoration: underline;
+}
+.arrow-link .arrow-link-image {
+    width: 19px;
+    margin-right: 4px;
+}

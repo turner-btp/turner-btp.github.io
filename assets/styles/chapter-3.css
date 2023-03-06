@@ -1,0 +1,365 @@
+.hero-background {
+    background-color: #001139;
+    background-image: url("../images/chapter-3/3_hero.jpg");
+}
+@media(max-width: 900px) {
+    .hero-background {
+        height: 750px;
+    }
+}
+.hero-container {
+    align-content: flex-end;
+    height: 935px;
+}
+@media(max-width: 900px) {
+    .hero-container {
+        height: 667px;
+    }
+}
+.hero-container h4 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.hero-container h1 {}
+@media(max-width: 900px) {
+    .hero-container h1 {
+        margin-top: 0;
+    }
+}
+.hero-container p {
+    margin-bottom: 85px;
+    padding-right: 250px;
+}
+@media(max-width: 900px) {
+    .hero-container p {
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+}
+.hero-container h2 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.investigators {
+    margin-top: 85px;
+}
+@media(max-width: 900px) {
+    .investigators {
+        margin-top: 50px;
+    }
+}
+.investigators-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .investigators h2 {
+        margin-bottom: 19px;
+    }
+}
+@media(max-width: 900px) {
+    .investigators-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.investigators-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .investigators-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.investigators-content .featured-people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people {
+        margin-top: 20px;
+    }
+}
+.investigators-content .featured-people .featured-person {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.investigators-content .featured-people .featured-person:last-of-type {
+    margin-bottom: 0;
+}
+.investigators-content .featured-people .featured-person .featured-person-image-container {
+    width: 186px;
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people .featured-person .featured-person-image-container {
+        display: none;
+    }
+}
+.investigators-content .featured-people .featured-person .featured-person-image-small {
+    display: none;
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people .featured-person .featured-person-image-small {
+        display: block;
+        width: 90px;
+        margin-bottom: 14px;
+    }
+}
+.investigators-content .featured-people .featured-person .featured-person-image {}
+.investigators-content .featured-people .featured-person .featured-person-content {
+    width: calc(100% - 186px);
+    padding-left: 27px;
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people .featured-person .featured-person-content {
+        width: 100%;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people .featured-person .featured-person-name {
+        width: calc(100% - 90px);
+        padding-left: 20px;
+    }
+}
+.investigators-content .featured-people .featured-person .featured-person-content h3 {}
+
+
+
+
+
+.philanthropy-in-action {
+    padding-top: 400px;
+}
+@media(max-width: 900px) {
+    .philanthropy-in-action {
+        padding-top: 200px;
+    }
+}
+.philanthropy-in-action .picture-molecule-content-background {
+    height: 600px;
+    background-image: url("../images/chapter-3/3_philanthropy.jpg");
+}
+@media(max-width: 900px) {
+    .philanthropy-in-action .picture-molecule-content-background {
+        height: 300px;
+        background-image: url("../images/chapter-3/3_philanthropy.jpg");
+    }
+}
+
+.philanthropy-in-action .picture-molecule-content-content-content h3.in-content{
+    margin-top: 40px;
+}
+.philanthropy-in-action .philanthropy-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin-top: 26px;
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .philanthropy-in-action .philanthropy-card {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+.philanthropy-in-action .philanthropy-card.no-margin-bottom {
+    margin-bottom: 0;
+}
+.philanthropy-in-action .philanthropy-card .philanthropy-card-image-container {
+    width: 200px;
+    padding-right: 25px;
+}
+@media(max-width: 900px) {
+    .philanthropy-in-action .philanthropy-card .philanthropy-card-image-container {
+        width: 100px;
+        float: left;
+        padding-right: 20px;
+        padding-bottom: 14px;
+    }
+}
+.philanthropy-in-action .philanthropy-card .philanthropy-card-image {
+    width: 100%;
+}
+.philanthropy-in-action .philanthropy-card .philanthropy-care-content {
+    width: calc(100% - 200px);
+    padding-left: 10px;
+}
+@media(max-width: 900px) {
+    .philanthropy-in-action .philanthropy-card .philanthropy-care-content {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+@media(min-width: 901px) {
+    .picture-molecule-content-content-heading.light-blue-border {
+           border-top: none;
+    }
+}
+@media(max-width: 900px) {
+    .picture-molecule-content-content-heading.light-blue-border {
+        padding-top: 25px;
+    }
+}
+
+.proton-therapy {
+    margin-top: 100px;
+}
+@media(max-width: 900px) {
+    .proton-therapy {
+        margin-top: 50px;
+    }
+}
+.proton-therapy .proton-therapy-image {
+    margin-bottom: 40px;
+    width: 100%;
+}
+@media(max-width: 900px) {
+    .proton-therapy .proton-therapy-image {
+        margin-bottom: 20px;
+    }
+}
+.proton-therapy h3 {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .proton-therapy h3 {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .proton-therapy h2 {
+        padding-bottom: 20px;
+    }
+}
+.proton-therapy-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .proton-therapy-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.proton-therapy-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .proton-therapy-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+
+.collaborative-discovery .collaborative-discovery-image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery .collaborative-discovery-image {
+        margin-bottom: 20px;
+    }
+}
+.collaborative-discovery h3 {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery h3 {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .collaborative-discovery h2 {
+        padding-bottom: 20px;
+    }
+}
+.collaborative-discovery-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.collaborative-discovery-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.collaborative-discovery-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.collaborative-discovery-content h3.in-content {
+    margin-bottom: 6px;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-content h3.in-content br {
+        display: none;
+    }
+}
+.collaborative-discovery-content ul {
+    margin-bottom: 40px;
+}
+.collaborative-discovery-content ul:last-of-type {
+    margin-bottom: 0;
+}
+.collaborative-discovery-content ul li {
+    margin-bottom: 12px;
+}
+.collaborative-discovery-followup-image-container {
+    float: left;
+    padding: 20px 26px 0 0;
+}
+.collaborative-discovery-followup-image {
+    width: 100%;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-followup-image-container {
+        width: 160px;
+    }
+}
+.collaborative-discovery-followup {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-followup {
+        margin-bottom: 50px;
+    }
+}

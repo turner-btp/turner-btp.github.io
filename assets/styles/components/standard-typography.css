@@ -1,0 +1,378 @@
+.grey {
+    color: #393939;
+}
+.light-grey {
+    color: #BBBBBB;
+}
+.white {
+    color: white;
+}
+.lighter-blue,
+.arrow-link.lighter-blue {
+    color: #9DD1FF;
+}
+.light-blue{
+    color: #3C84C4;
+}
+.blue {
+    color: #215398;
+}
+.dark-blue {
+    color: #001139;
+}
+.red {
+    color: #B20738;
+}
+.super-light-blue-bg {
+    background-color: #F6FBFF;
+}
+.dark-blue-bg {
+    background-color: #001139;
+}
+.white-bg {
+    background-color: white;
+}
+.red-bg {
+    background-color: #B20738;
+}
+.light-blue-border {
+    border-color: #3C84C4;
+}
+.blue-border {
+    border-color: #215398;
+}
+.red-border {
+    border-color: #B20738;
+}
+.border-top {
+    border-top-width: 1px;
+    border-top-style: solid;
+}
+.border-right {
+    border-right-width: 1px;
+    border-right-style: solid;
+}
+.border-bottom {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.border-left {
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+.grotesk {
+    font-family: neue-haas-grotesk-text, Arial;
+}
+.sculpin {
+    font-family: sculpin, Arial;
+}
+.all-caps {
+    text-transform: uppercase;
+}
+.full-width {
+    display: block;
+    width: 100%;
+}
+ul.two-columns {
+    columns: 2;
+}
+@media(max-width: 900px) {
+    ul.two-columns {
+        columns: 1;
+    }
+}
+ul.four-columns {
+    columns: 4;
+}
+@media(max-width: 700px) {
+    ul.four-columns {
+        columns: 2;
+    }
+}
+@media(max-width: 360px) {
+    ul.four-columns {
+        columns: 1;
+    }
+}
+ul.two-columns li,
+ul.four-columns li {
+    page-break-inside: avoid;
+    break-inside: avoid-column;
+}
+.mobile-only {
+    display: none;
+}
+@media(max-width: 900px) {
+    .mobile-only {
+        display: block;
+    }
+}
+.desktop-only {
+    display: block;
+}
+@media(max-width: 900px) {
+    .desktop-only {
+        display: none;
+    }
+}
+p.standard.no-margin-bottom {
+    margin-bottom: 0;
+}
+sup {
+    font-size: 60%;
+    position: relative;
+    top: -9px;
+}
+strong {
+    font-weight: bold;
+}
+.relative {
+    position: relative;
+}
+p.standard,
+.p-standard {
+    font-family: neue-haas-grotesk-text, Arial;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+p.standard.caption,
+.p-standard.caption {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+p.standard.smaller,
+.p-standard.smaller {
+    font-size: 15px;
+    line-height: 20px;
+}
+p.standard.smallest,
+.p-standard.smallest {
+    font-size: 12px;
+    line-height: 18px;
+}
+p.hero-p,
+.p-hero-p {
+    font-family: neue-haas-grotesk-text, Arial;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 85px;
+}
+@media(max-width: 900px) {
+    p.hero-p,
+    .p-hero-p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+p.quote,
+.p-quote {
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 45px;
+}
+@media(max-width: 900px) {
+    p.quote,
+    .p-quote {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+p.quote.smaller,
+.p-quote-smaller {
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 35px;
+}
+@media(max-width: 900px) {
+    p.quote.smaller,
+    .p-quote-smaller {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+p.quote-author,
+.p-quote-author {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 35px;
+}
+@media(max-width: 900px) {
+    p.quote-author,
+    .p-quote-author {
+        font-size: 14px;
+        line-height: 35px;
+    }
+}
+ul.standard {
+    font-family: neue-haas-grotesk-text, Arial;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+ul.standard.smaller {
+    font-size: 15px;
+    line-height: 20px;
+}
+ul.standard li {;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 19px;
+}
+ul.standard.no-bullets li {
+    padding-left: 0;
+}
+ul.standard.smaller li {
+    margin-bottom: 12px;
+}
+ul.standard li:before {
+    content: "";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #B20738;
+    margin-right: 9px;
+    position: absolute;
+    left: 0;
+    top: 9px;
+}
+ul.standard.no-bullets li:before {
+    display: none;
+}
+h1.standard,
+.h1-standard{
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 80px;
+    margin-bottom: 25px;
+}
+@media(max-width: 900px) {
+    h1.standard,
+    .h1-standard {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+h1.hero,
+.h1-hero {
+    font-size: 35px;
+    letter-spacing: 0;
+    line-height: 35px;
+    margin-top: 110px;
+}
+@media(max-width: 900px) {
+    h1.hero,
+    .h1-hero {
+        font-size: 20px;
+        line-height: 20px;
+    }
+}
+h2.standard,
+.h2-standard {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 45px;
+}
+@media(max-width: 900px) {
+    h2.standard,
+    .h2-standard {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+h2.all-caps,
+.h2-all-caps {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #3C84C4;
+    font-size: 42px;
+    letter-spacing: 3.5px;
+    line-height: 80px;
+}
+h2.hero,
+.h2-hero {
+    font-size: 100px;
+    font-weight: normal;
+    color: #9DD1FF;
+    line-height: 100px;
+}
+h2.hero strong,
+.h2-hero strong {
+    color: white;
+    font-weight: bold;
+}
+@media(max-width: 900px) {
+    h2.hero,
+    .h2-hero {
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+h2.standard.smaller,
+.h2-standard.smaller {
+    font-size: 28px;
+    line-height: 34px;
+}
+h3.standard,
+.h3-standard {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+@media(max-width: 900px) {
+    h3.standard,
+    .h3-standard {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+h3.standard.smaller,
+.h3-standard.smaller {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight: 400;
+}
+@media(max-width: 900px) {
+    h3.standard.smaller,
+    .h3-standard.smaller {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+h3.in-content,
+.h3-in-content {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 30px;
+}
+@media(max-width: 900px) {
+    h3.in-content,
+    .h3-in-content {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+h4.hero-h4,
+.h4.hero-h4 {
+    text-transform: uppercase;
+    color: #BBBBBB;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+h5.standard,
+.h5-standard {
+    font-weight: bold;
+    font-size: 17px;
+    letter-spacing: 0;
+    line-height: 26px;
+}

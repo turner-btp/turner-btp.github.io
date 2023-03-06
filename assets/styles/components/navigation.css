@@ -1,0 +1,186 @@
+body {
+    width: 100%;
+}
+.navigation-container {
+    display: none;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.navigation-container .container {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    position: relative;
+}
+@media(max-width: 1100px) {
+    .navigation-container .container {
+        padding-top: 110px;
+        padding-bottom: 110px;
+        position: relative;
+    }
+}
+@media(max-width: 900px) {
+    .navigation-container .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        position: relative;
+    }
+}
+@media(max-width: 550px) {
+    .navigation-container .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+}
+.navigation-container .close-navigation {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    cursor: pointer;
+}
+@media(max-width: 1232px) {
+    .navigation-container .close-navigation {
+        right: 25px;
+    }
+}
+.navigation-container .fa-times {
+    color: white;
+    font-size: 50px;
+}
+@media(max-width: 900px) {
+    .navigation-container .fa-times {
+        font-size: 40px;
+    }
+}
+@media(max-width: 550px) {
+    .navigation-container .fa-times {
+        font-size: 30px;
+    }
+}
+.navigation-container .navigation-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.navigation-container .navigation-row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+@media(max-width: 1100px) {
+    .navigation-container .navigation-row {
+        flex-wrap: wrap;
+    }
+}
+.navigation-container .navigation-column {
+    display: block;
+    width: 25%;
+    flex-wrap: wrap;
+    padding-bottom: 83px;
+}
+@media(max-width: 1100px) {
+    .navigation-container .navigation-column {
+        width: 50%;
+    }
+}
+@media(max-width: 900px) {
+    .navigation-container .navigation-column {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+}
+.navigation-container .navigation-column h2 {
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 38px;
+}
+@media(max-width: 550px) {
+    .navigation-container .navigation-column h2 {
+        padding-right: 40px;
+    }
+}
+.navigation-container .navigation-column h2 a {
+    color: white;
+    text-decoration: none;
+}
+.navigation-container .navigation-column h2 br {
+
+}
+.navigation-container .navigation-column .navigation-arrow {
+    width: 84px;
+    margin-top: 16px;
+}
+@media(max-width: 550px) {
+    .navigation-container .navigation-column .navigation-arrow {
+        width: 60px;
+    }
+}
+.navigation-container .navigation-column h4 {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-bottom: 9px;
+}
+.navigation-container .navigation-column h4 a {
+    text-decoration: none;
+}
+.navigation-container .navigation-column h3 {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-bottom: 12px;
+}
+.navigation-container .navigation-column h3 a {
+    text-decoration: none;
+}
+@media(max-width: 1100px) {
+    .navigation-container .navigation-column h3 a br {
+        display: none;
+    }
+}
+.navigation-container .navigation-column ul {
+    margin-top: 16px;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 24px;
+    padding-right: 20px;
+}
+@media(max-width: 900px) {
+    .navigation-container .navigation-column ul {
+        column-count: 2;
+        column-gap: 40px;
+    }
+}
+@media(max-width: 550px) {
+    .navigation-container .navigation-column ul {
+        column-count: 1;
+    }
+}
+.navigation-container .navigation-column ul li {
+    margin-bottom: 15px;
+}
+.navigation-container .navigation-column ul li a {
+    text-decoration: none;
+}
+.navigation-container .navigation-column ul li a:hover {}
+.navigation-container .navigation-column ul li ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+@media(max-width: 900px) {
+    .navigation-container .navigation-column ul li ul {
+        column-count: 1;
+    }
+}
+.navigation-container .navigation-column ul li ul li {
+    margin-bottom: 0;
+}
+.navigation-container .navigation-column ul li ul li a {}

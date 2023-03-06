@@ -1,0 +1,97 @@
+.light-molecule-feature-bg {
+    display: block;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: url("../../images/global/background_pattern_light.png") repeat;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-bg {
+
+    }
+}
+@media(max-width: 700px) {
+    .light-molecule-feature-bg {
+
+    }
+}
+@media(max-width: 500px) {
+    .light-molecule-feature-bg {
+
+    }
+}
+.light-molecule-feature {
+    margin-top: 95px;
+    padding-bottom: 95px;
+    position: relative;
+    z-index: 2;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature {
+        margin-top: 50px;
+        padding-bottom: 30px;
+    }
+}
+.light-molecule-feature-image {
+    margin-bottom: 71px;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.light-molecule-feature-text {
+    padding-left: 160px;
+    padding-right: 200px;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.light-molecule-feature-heading {
+    position: relative;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-heading {
+        border-left: none;
+        border-bottom: none;
+        padding: 0 20px;
+    }
+}
+.light-molecule-feature-heading h3 {
+    padding: 0 0 12px 39px;
+}
+.light-molecule-feature-heading h2 {
+    padding: 0 0 29px 39px;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-heading h2 {
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid #3C84C4;
+    }
+}
+.light-molecule-feature-heading .red-line {
+    display: block;
+    height: 80px;
+    width: 11px;
+    position: absolute;
+    left: -6px;
+    top: 35px;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-heading .red-line {
+        display: none;
+    }
+}
+.light-molecule-feature-content {
+    padding: 51px 0 0 39px;
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-content {
+        border-left: none;
+        padding: 20px;
+    }
+}

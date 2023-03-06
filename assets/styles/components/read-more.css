@@ -1,0 +1,24 @@
+@media(max-width: 900px) {
+    .read-more-hidden {
+        display: none;
+        margin-top: 20px;
+    }
+}
+.read-more {
+    display: none;
+    font-family: sculpin, Arial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.read-more:hover {
+    text-decoration: underline;
+}
+@media(max-width: 900px) {
+    .read-more {
+        display: none;
+    }
+}

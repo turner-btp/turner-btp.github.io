@@ -1,0 +1,29 @@
+.hero-background {
+    display: block;
+    margin: auto;
+    height: 1044px;
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.hero-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+}
+.hero-container .red-line {
+    display: block;
+    width: 642px;
+    height: 30px;
+}
+@media(max-width: 900px) {
+    .hero-container .red-line {
+        width: 80%;
+        height: 10px;
+    }
+}

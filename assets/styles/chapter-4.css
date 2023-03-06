@@ -1,0 +1,456 @@
+.hero-background {
+    background-color: #001139;
+    background-image: url("../images/chapter-4/4_hero.jpg");
+}
+@media(max-width: 900px) {
+    .hero-background {
+        height: 762px;
+    }
+}
+.hero-container {
+    align-content: flex-end;
+    height: 936px;
+}
+@media(max-width: 900px) {
+    .hero-container {
+        height: 680px;
+    }
+}
+.hero-container h4 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.hero-container h1 {}
+@media(max-width: 900px) {
+    .hero-container h1 {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+.hero-container p {
+    margin-bottom: 85px;
+    padding-right: 250px;
+}
+@media(max-width: 900px) {
+    .hero-container p {
+        margin-bottom: 50px;
+        padding-right: 0;
+    }
+}
+.hero-container h2 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.immunorevolution {
+    margin-top: 85px;
+}
+@media(max-width: 900px) {
+    .immunorevolution {
+        margin-top: 50px;
+    }
+}
+.immunorevolution h3 {
+    margin-bottom: 18px;
+}
+@media(max-width: 900px) {
+    .immunorevolution h3 {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .immunorevolution h2 {
+        margin-bottom: 12px;
+    }
+}
+.immunorevolution-content {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .immunorevolution-content {
+        margin-bottom: 50px;
+    }
+}
+.immunorevolution-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .immunorevolution-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.immunorevolution-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.immunorevolution-content .highlight .immunorevolution-content-higlight-image {
+    width: 233px;
+    margin-top: 25px;
+}
+@media(max-width: 900px) {
+    .immunorevolution-content .highlight .immunorevolution-content-higlight-image {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+.immunorevolution-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .immunorevolution-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+
+.immune-health {
+
+}
+.immune-health .immune-health-image {
+    width: 100%;
+}
+.immune-health .light-molecule-feature-feature {
+    padding: 50px 50px 50px 60px;
+}
+@media(max-width: 900px) {
+    .immune-health .light-molecule-feature-feature {
+        padding: 30px 20px;
+    }
+}
+@media(max-width: 900px) {
+    .immune-health .light-molecule-feature-feature h3 {
+        margin-bottom: 10px;
+    }
+}
+.immune-health .light-molecule-feature-feature h2 {
+    padding-right: 100px;
+    margin-bottom: 42px;
+}
+@media(max-width: 900px) {
+    .immune-health .light-molecule-feature-feature h2 {
+        padding-right: 100px;
+        margin-bottom: 20px;
+    }
+}
+.immune-health .light-molecule-feature-feature .light-molecule-feature-feature-image {
+    float: left;
+    width: 240px;
+    margin-right: 32px;
+    margin-bottom: 16px;
+}
+@media(max-width: 900px) {
+    .immune-health .light-molecule-feature-feature .light-molecule-feature-feature-image {
+        float: left;
+        width: 90px;
+        margin-right: 20px;
+        margin-bottom: 16px;
+    }
+}
+.immune-health-bg {
+    top: 1030px;
+    left: 0;
+    height: calc(100% - 930px);
+}
+@media(max-width: 1050px) {
+    .immune-health-bg {
+        top: 900px;
+        height: calc(100% - 800px);
+    }
+}
+@media(max-width: 950px) {
+    .immune-health-bg {
+        top: 800px;
+        height: calc(100% - 700px);
+    }
+}
+@media(max-width: 900px) {
+    .immune-health-bg {
+        top: 700px;
+        height: calc(100% - 650px);
+    }
+}
+@media(max-width: 800px) {
+    .immune-health-bg {
+        top: 620px;
+        height: calc(100% - 570px);
+    }
+}
+@media(max-width: 700px) {
+    .immune-health-bg {
+        top: 550px;
+        height: calc(100% - 500px);
+    }
+}
+@media(max-width: 600px) {
+    .immune-health-bg {
+        top: 520px;
+        height: calc(100% - 470px);
+    }
+}
+@media(max-width: 500px) {
+    .immune-health-bg {
+        top: 450px;
+        height: calc(100% - 400px);
+    }
+}
+@media(max-width: 400px) {
+    .immune-health-bg {
+        top: 320px;
+        height: calc(100% - 270px);
+    }
+}
+@media(max-width: 900px) {
+    .immune-health-heading h3 {
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+}
+
+.emerging-therapies {
+    margin-top: 200px;
+}
+@media(max-width: 900px) {
+    .emerging-therapies {
+        margin-top: 100px;
+    }
+}
+.emerging-therapies-image {
+    width: 100%;
+}
+.emerging-therapies h3 {
+    margin-top: 50px;
+    margin-bottom: 18px;
+}
+@media(max-width: 900px) {
+    .emerging-therapies h3 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .emerging-therapies h2 {
+        margin-bottom: 20px;
+    }
+}
+.emerging-therapies-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .emerging-therapies-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.emerging-therapies-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.emerging-therapies-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .emerging-therapies-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.emerging-therapies-content .content h3.in-content {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .emerging-therapies-content .content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .emerging-therapies-content-2 .highlight {
+        padding-top: 0;
+    }
+}
+
+.t-cell-bg {
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .t-cell-bg {
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.t-cell {
+    margin-top: 100px;
+}
+@media(max-width: 900px) {
+    .t-cell {
+        margin-top: 50px;
+    }
+}
+.t-cell .t-cell-image-container {
+    position: relative;
+    margin-bottom: 40px;
+}
+@media(max-width: 900px) {
+    .t-cell .t-cell-image-container {
+        margin-bottom: 30px;
+    }
+}
+.t-cell .t-cell-image {
+    width: 100%;
+}
+.t-cell p.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 0 0 34px 36px;
+    width: 235px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+@media(max-width: 900px) {
+    .t-cell p.caption {
+        margin-top: 10px;
+        position: static;
+        color: #001139;
+        width: 100%;
+        padding: 0;
+    }
+}
+@media(max-width: 900px) {
+    .t-cell h2 {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 900px) {
+    .t-cell-content {
+        border-bottom: none;
+    }
+}
+.t-cell-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .t-cell-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.t-cell-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.t-cell-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .t-cell-content .content {
+        padding: 0 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.t-cell-content .content h3.in-content {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .t-cell-content .content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+.new-discoveries {
+    margin-top: 100px;
+}
+@media(max-width: 900px) {
+    .new-discoveries {
+        margin-top: 50px;
+    }
+}
+@media(max-width: 900px) {
+    .new-discoveries h3 {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .new-discoveries h2 {
+        margin-bottom: 20px;
+    }
+}
+.new-discoveries-content {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .new-discoveries-content {
+        margin-bottom: 50px;
+    }
+}
+.new-discoveries-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .new-discoveries-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.new-discoveries-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.new-discoveries-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .new-discoveries-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.new-discoveries-content .content h3.in-content {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .new-discoveries-content .content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+.new-discoveries-content .content .new-discoveries-content-image-container {
+    width: 270px;
+    float: left;
+    padding-right: 22px;
+}
+@media(max-width: 900px) {
+    .new-discoveries-content .content .new-discoveries-content-image-container {
+        width: 150px;
+    }
+}
+.new-discoveries-content .content .new-discoveries-content-image {
+    width: 100%;
+    margin-bottom: 9px;
+}

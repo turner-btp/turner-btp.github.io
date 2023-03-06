@@ -1,0 +1,252 @@
+.hero-background {
+    background-color: #001139;
+    background-image: url("../images/chapter-6/6_hero.jpg");
+}
+@media(max-width: 900px) {
+    .hero-background {
+        height: 750px;
+    }
+}
+.hero-container {
+    align-content: flex-end;
+    height: 936px;
+}
+@media(max-width: 900px) {
+    .hero-container {
+        height: 668px;
+    }
+}
+.hero-container h4 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+@media(max-width: 900px) {
+    .hero-container h4 {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+.hero-container h1 {}
+@media(max-width: 900px) {
+    .hero-container h1 {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+.hero-container p {
+    margin-bottom: 85px;
+    padding-right: 250px;
+}
+@media(max-width: 900px) {
+    .hero-container p {
+        padding-right: 0;
+        margin-bottom: 50px;
+    }
+}
+.hero-container h2 strong {
+    color: white;
+    font-weight: bold;
+}
+
+.our-network {
+    margin-top: 85px;
+}
+@media(max-width: 900px) {
+    .our-network {
+        margin-top: 50px;
+    }
+}
+.our-network h3 {
+    margin-bottom: 18px;
+}
+@media(max-width: 900px) {
+    .our-network h2 {
+        margin-bottom: 20px;
+    }
+}
+.our-network-content {
+    margin-bottom: 50px;
+}
+.our-network-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .our-network-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.our-network-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.our-network-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .our-network-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.map {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .map {
+        margin-bottom: 50px;
+    }
+}
+.map-image {
+    width: 100%;
+}
+.proton-therapy-locations {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .proton-therapy-locations {
+        margin-bottom: 50px;
+    }
+}
+.proton-therapy-locations .picture-molecule-content-background {
+    background-image: url("../images/chapter-6/6_proton_therapy.jpg");
+}
+@media(max-width: 900px) {
+    .proton-therapy-locations h2 br {
+        display: none;
+    }
+}
+
+.cancer-system {}
+.cancer-system-image {
+    width: 100%;
+    margin-bottom: 40px;
+}
+@media(max-width: 900px) {
+    .cancer-system-image {
+        margin-bottom: 20px;
+    }
+}
+.cancer-system h3 {
+    margin-bottom: 18px;
+}
+@media(max-width: 900px) {
+    .cancer-system h3 {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .cancer-system h2 {
+        margin-bottom: 20px;
+    }
+}
+.cancer-system-content {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .cancer-system-content {
+        margin-bottom: 50px;
+    }
+}
+.cancer-system-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .cancer-system-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.cancer-system-content .highlight p:last-of-type {
+    margin-bottom: 0;
+}
+.cancer-system-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .cancer-system-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+
+
+.penn-radnor {
+    margin-bottom: 100px;
+}
+.penn-radnor-image {
+    width: 100%;
+}
+.penn-radnor-bg {
+    top: 1030px;
+    left: 0;
+    height: calc(100% - 1030px);
+}
+@media(max-width: 1050px) {
+    .penn-radnor-bg {
+        top: 900px;
+        height: calc(100% - 900px);
+    }
+}
+@media(max-width: 950px) {
+    .penn-radnor-bg {
+        top: 800px;
+        height: calc(100% - 800px);
+    }
+}
+@media(max-width: 900px) {
+    .penn-radnor-bg {
+        top: 700px;
+        height: calc(100% - 750px);
+    }
+}
+@media(max-width: 800px) {
+    .penn-radnor-bg {
+        top: 620px;
+        height: calc(100% - 670px);
+    }
+}
+@media(max-width: 700px) {
+    .penn-radnor-bg {
+        top: 550px;
+        height: calc(100% - 600px);
+    }
+}
+@media(max-width: 600px) {
+    .penn-radnor-bg {
+        top: 520px;
+        height: calc(100% - 570px);
+    }
+}
+@media(max-width: 500px) {
+    .penn-radnor-bg {
+        top: 450px;
+        height: calc(100% - 500px);
+    }
+}
+@media(max-width: 400px) {
+    .penn-radnor-bg {
+        top: 320px;
+        height: calc(100% - 370px);
+    }
+}
+@media(max-width: 900px) {
+    .penn-radnor-heading h3 {
+        padding-left: 0;
+    }
+}
+.penn-radnor-content p:last-of-type {
+    margin-bottom: 0;
+}

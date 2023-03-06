@@ -1,0 +1,105 @@
+.footer-background {}
+footer {
+    display: flex;
+    width: 100%;
+    max-height: 92px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+@media(max-width: 900px) {
+    footer {
+        max-height: none;
+        flex-wrap: wrap;
+    }
+}
+footer .footer-links {
+    display: flex;
+    width: 65%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+@media(max-width: 900px) {
+    footer .footer-links {
+        width: 100%;
+    }
+}
+footer .footer-links .footer-logo-link {
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+@media(max-width: 900px) {
+    footer .footer-links .footer-logo-link {
+        margin-bottom: 18px;
+    }
+}
+footer .footer-links .footer-logo-link .footer-logo {
+    width: 250px;
+}
+@media(max-width: 900px) {
+    footer .footer-links .footer-logo-link .footer-logo {
+        width: 200px;
+    }
+}
+footer .footer-links .footer-links-list {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+@media(max-width: 900px) {
+    footer .footer-links .footer-links-list {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        margin-bottom: 22px;
+    }
+}
+footer .footer-links .footer-links-list .footer-link-list-item {}
+@media(max-width: 900px) {
+    footer .footer-links .footer-links-list .footer-link-list-item {
+        margin-right: 20px;
+    }
+}
+footer .footer-links .footer-links-list .footer-link-list-item .footer-link-list-item-link {
+    text-decoration: none;
+    color: #BBBBBB;
+    font-family: neue-haas-grotesk-text, Arial;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 26px;
+}
+footer .footer-icons {
+    display: flex;
+    width: 35%;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+@media(max-width: 900px) {
+    footer .footer-icons {
+        width: 100%;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+footer .footer-icons .fifty-icon-link {
+    margin-right: 22px;
+}
+footer .footer-icons .fifty-icon-link .fifty-icon {
+    width: 114px;
+}
+@media(max-width: 900px) {
+    footer .footer-icons .fifty-icon-link .fifty-icon {
+        width: 80px;
+    }
+}
+footer .footer-icons .nci-icon-link {}
+footer .footer-icons .nci-icon-link .nci-icon {
+    width: 200px;
+}
+@media(max-width: 900px) {
+    footer .footer-icons .nci-icon-link .nci-icon {
+        width: 140px;
+    }
+}

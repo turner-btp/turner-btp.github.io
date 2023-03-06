@@ -1,0 +1,350 @@
+.hero-background {
+    background-color: #001139;
+    background-image: url("../images/chapter-2/2_hero.jpg");
+}
+@media(max-width: 900px) {
+    .hero-background {
+        height: 750px;
+    }
+}
+.hero-container {
+    align-content: flex-end;
+    height: 936px;
+}
+@media(max-width: 900px) {
+    .hero-container {
+        height: 667px;
+    }
+}
+.hero-container h4 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+@media(max-width: 900px) {
+    .hero-container h4 {
+        font-size: 19px;
+    }
+}
+.hero-container h1 {}
+@media(max-width: 900px) {
+    .hero-container h1 {
+        margin-top: 0;
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+@media(max-width: 400px) {
+    .hero-container h1 {
+        margin-top: 0;
+        font-size: 26px;
+        line-height: 26px;
+    }
+}
+.hero-container p {
+    margin-bottom: 20px;
+    padding-right: 250px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+@media(max-width: 900px) {
+    .hero-container p {
+        padding-right: 0;
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+@media(max-width: 400px) {
+    .hero-container p {
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
+.hero-container p:last-of-type {
+    margin-bottom: 85px;
+}
+@media(max-width: 900px) {
+    .hero-container p:last-of-type {
+        margin-bottom: 55px;
+    }
+}
+.hero-container h2 strong {
+    color: white;
+    font-weight: bold;
+}
+
+
+.adjustments {
+    margin-top: 85px;
+}
+@media(max-width: 900px) {
+    .adjustments {
+        margin-top: 50px;
+    }
+}
+.adjustments .adjustments-image {
+    width: 100%;
+}
+.adjustments h2 {
+    margin-top: 37px;
+}
+@media(max-width: 900px) {
+    .adjustments h2 {
+        margin-top: 22px;
+        margin-bottom: 20px;
+    }
+}
+.adjustments-content {
+    margin-bottom: 98px;
+}
+@media(max-width: 900px) {
+    .adjustments-content {
+        margin-bottom: 50px;
+    }
+}
+.adjustments-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .adjustments-content .highlight {
+        padding: 19px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.adjustments-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .adjustments-content .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+@media(max-width: 900px) {
+    .adjustments-content .content li:last-of-type{
+        margin-bottom: 0;
+    }
+}
+.genetic-counseling .picture-molecule-content-background {
+    background-image: url("../images/chapter-2/2_genetic_counseling_telemedicine.jpg");
+}
+.genetic-counseling .picture-molecule-content-content-content h3.in-content {
+    margin-top: 43px;
+}
+@media(max-width: 900px) {
+    .genetic-counseling .picture-molecule-content-content-content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+.at-home-care {
+    margin-top: 100px;
+}
+@media(max-width: 900px) {
+    .at-home-care {
+        margin-top: 50px;
+    }
+}
+.at-home-care .at-home-care-image {
+    margin-bottom: 40px;
+    width: 100%;
+}
+@media(max-width: 900px) {
+    .at-home-care .at-home-care-image {
+        margin-bottom: 20px;
+    }
+}
+.at-home-care h3.smaller {
+    margin-bottom: 12px;
+}
+@media(max-width: 900px) {
+    .at-home-care h3.smaller {
+        margin-bottom: 10px;
+    }
+}
+@media(max-width: 900px) {
+    .at-home-care h2 {
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 900px) {
+    .at-home-care-content {
+        padding-bottom: 19px;
+    }
+}
+.at-home-care-content .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .at-home-care-content .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.at-home-care-content .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .at-home-care-content .content {
+        padding: 0 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.at-home-care-content .content h3.in-content {
+    margin-top: 41px;
+    margin-bottom: 7px;
+}
+@media(max-width: 900px) {
+    .at-home-care-content .content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+.pull-quote .quote {
+    margin-bottom: 8px;
+}
+@media(max-width: 900px) {
+    .pull-quote .quote {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}
+@media(max-width: 900px) {
+    .pull-quote .quote-author {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+.at-home-care-content-2 {
+    margin-bottom: 100px;
+}
+@media(max-width: 900px) {
+    .at-home-care-content-2 {
+        margin-bottom: 50px;
+    }
+}
+.at-home-care-content-2 .highlight {
+    padding: 42px 30px 20px 0;
+    max-width: 390px;
+    width: 35%;
+}
+@media(max-width: 900px) {
+    .at-home-care-content-2 .highlight {
+        padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+.at-home-care-content-2 .content {
+    padding: 42px 0 42px 39px;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .at-home-care-content-2 .content {
+        padding: 0 0 20px 0;
+        max-width: none;
+        width: 100%;
+    }
+}
+@media(max-width: 900px) {
+    .at-home-care-content-2 .content h3.in-content {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+.patient-story {
+    margin-bottom: 166px;
+}
+@media(max-width: 900px) {
+    .patient-story {
+        margin-bottom: 50px;
+    }
+}
+.patient-story .patient-story-image {
+    width: 100%;
+}
+.patient-story-bg {
+    top: 1020px;
+    left: 0;
+    height: calc(100% - 1030px);
+}
+@media(max-width: 1050px) {
+    .patient-story-bg {
+        top: 950px;
+        height: calc(100% - 960px);
+    }
+}
+@media(max-width: 950px) {
+    .patient-story-bg {
+        top: 850px;
+        height: calc(100% - 860px);
+    }
+}
+@media(max-width: 900px) {
+    .patient-story-bg {
+        top: 700px;
+        height: calc(100% - 700px);
+    }
+}
+@media(max-width: 800px) {
+    .patient-story-bg {
+        top: 620px;
+        height: calc(100% - 620px);
+    }
+}
+@media(max-width: 700px) {
+    .patient-story-bg {
+        top: 550px;
+        height: calc(100% - 550px);
+    }
+}
+@media(max-width: 600px) {
+    .patient-story-bg {
+        top: 520px;
+        height: calc(100% - 520px);
+    }
+}
+@media(max-width: 500px) {
+    .patient-story-bg {
+        top: 450px;
+        height: calc(100% - 450px);
+    }
+}
+@media(max-width: 400px) {
+    .patient-story-bg {
+        top: 320px;
+        height: calc(100% - 320px);
+    }
+}
+.patient-story-content p:last-of-type {
+    margin-bottom: 0;
+}
+
+.patient-story .patient-story-content h3.in-content {
+    margin-top: 41px;
+    margin-bottom: 7px;
+}
+@media(max-width: 900px) {
+    .patient-story .patient-story-content h3.in-content {
+        margin-top: 30px;
+    }
+}
+@media(max-width: 900px) {
+    .light-molecule-feature-heading.patient-story-heading h3 {
+        padding: 0 0 12px 0;
+    }
+}
