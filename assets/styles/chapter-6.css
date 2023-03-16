@@ -164,6 +164,7 @@
         padding: 20px 0 0 0;
         max-width: none;
         width: 100%;
+        margin-bottom: 20px;
     }
 }
 .cancer-system-content .highlight p:last-of-type {

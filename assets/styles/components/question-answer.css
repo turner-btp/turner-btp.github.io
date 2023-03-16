@@ -6,6 +6,7 @@
     .question-answer {
         margin-top: 50px;
         margin-bottom: 50px;
+        padding: 0 25px;
     }
 }
 .question-answer-content {

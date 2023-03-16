@@ -5,9 +5,19 @@ window.addEventListener("DOMContentLoaded", function() {
     });
 
     document.querySelector('.navigation-container .close-navigation').addEventListener('click', () => {
+        closeNavigation();
+    });
+
+    document.querySelectorAll('.navigation-container').forEach(el => {
+        el.addEventListener('click', () => {
+            closeNavigation();
+        })
+    });
+
+    function closeNavigation() {
         document.querySelector('body').style.position = "static";
         document.querySelector('.navigation-container').style.display = "none";
-    });
+    }
 
     let readMores = document.querySelectorAll('.read-more');
 

@@ -36,9 +36,9 @@ header .navigation .activator {
     letter-spacing: 0;
     line-height: 17px;
 }
-header .navigation .activator .fa-bars {
-    color: white;
-    font-size: 50px;
+header .navigation .activator span {
+    display: block;
+    margin-top: 6px;
 }
 @media(max-width: 900px) {
     header .navigation .activator span {

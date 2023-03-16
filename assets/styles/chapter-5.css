@@ -227,12 +227,7 @@
     }
 }
 .diverse-clinician-content {
-    margin-bottom: 100px;
-}
-@media(max-width: 900px) {
-    .diverse-clinician-content {
-        margin-bottom: 50px;
-    }
+    margin-bottom: 50px;
 }
 .diverse-clinician-content .highlight {
     padding: 42px 30px 20px 0;
@@ -263,19 +258,22 @@
 }
 
 .prioritization {
-    padding-bottom: 80px;
     margin-bottom: 100px;
+    padding: 76px 100px 80px 100px;
 }
 @media(max-width: 900px) {
     .prioritization {
-        padding-top: 30px;
-        padding-bottom: 30px;
+        padding: 30px 20px;
         margin-bottom: 50px;
     }
+}
+.prioritization .columns .left-column {
+    padding-right: 50px;
 }
 @media(max-width: 900px) {
     .prioritization .columns .left-column {
         padding-bottom: 0;
+        padding-right: 0;
     }
 }
 .prioritization .columns .left-column .prioritization-image {

@@ -113,6 +113,7 @@
     .investigators-content .featured-people .featured-person .featured-person-image-small {
         display: block;
         width: 90px;
+        height: 90px;
         margin-bottom: 14px;
     }
 }
@@ -130,13 +131,23 @@
         flex-wrap: wrap;
     }
 }
+.investigators-content .featured-people .featured-person .featured-person-name {
+    margin-bottom: 10px;
+}
 @media(max-width: 900px) {
     .investigators-content .featured-people .featured-person .featured-person-name {
         width: calc(100% - 90px);
         padding-left: 20px;
     }
 }
-.investigators-content .featured-people .featured-person .featured-person-content h3 {}
+.investigators-content .featured-people .featured-person .featured-person-content h3 {
+    margin-bottom: 6px;
+}
+@media(max-width: 900px) {
+    .investigators-content .featured-people .featured-person .featured-person-content h3 {
+        margin-bottom: 0;
+    }
+}
 
 
 
@@ -293,8 +304,13 @@
         padding-bottom: 20px;
     }
 }
+@media(max-width: 900px) {
+    .collaborative-discovery h2 br {
+        display: none;
+    }
+}
 .collaborative-discovery-content .highlight {
-    padding: 42px 30px 20px 0;
+    padding: 42px 29px 20px 0;
     max-width: 390px;
     width: 35%;
 }
@@ -318,6 +334,11 @@
         padding: 0 0 20px 0;
         max-width: none;
         width: 100%;
+    }
+}
+@media(max-width: 900px) {
+    .collaborative-discovery-content .highlight-content br {
+        display: none;
     }
 }
 .collaborative-discovery-content h3.in-content {

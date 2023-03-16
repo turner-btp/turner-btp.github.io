@@ -1,6 +1,6 @@
 @media(max-width: 900px) {
     .read-more-hidden {
-        display: none;
+        display: block;
         margin-top: 20px;
     }
 }

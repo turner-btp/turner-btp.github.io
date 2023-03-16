@@ -1,3 +1,12 @@
+em {
+    font-style: italic;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
 .grey {
     color: #393939;
 }
@@ -83,13 +92,14 @@ ul.two-columns {
 }
 ul.four-columns {
     columns: 4;
+    column-gap: 0;
 }
 @media(max-width: 700px) {
     ul.four-columns {
         columns: 2;
     }
 }
-@media(max-width: 360px) {
+@media(max-width: 340px) {
     ul.four-columns {
         columns: 1;
     }

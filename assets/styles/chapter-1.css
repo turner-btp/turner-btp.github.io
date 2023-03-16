@@ -381,7 +381,7 @@
     }
 }
 .by-the-numbers-stat-block-1 .description-1 {
-    width: 498px;
+    width: 307px;
 }
 @media(max-width: 900px) {
     .by-the-numbers-stat-block-1 .description-1 {
@@ -437,10 +437,11 @@
     }
 }
 .by-the-numbers-stat-block-2 .description-1 {
-    width: 100%;
+    width: 498px;
 }
 @media(max-width: 900px) {
     .by-the-numbers-stat-block-2 .description-1 {
+        width: 100%;
         padding: 10px;
         margin-top: 15px;
     }
@@ -552,7 +553,7 @@
 .by-the-numbers-stat-block-4 .stat-4 {}
 .by-the-numbers-stat-block-4 .stat-5 {}
 .by-the-numbers-content>p.caption {
-    padding-right: 300px;
+    padding-right: 285px;
 }
 @media(max-width: 900px) {
     .by-the-numbers-content>p.caption {
@@ -804,11 +805,15 @@
     }
 }
 .leadership-content .highlight {
-    padding: 40px 20px 0 0;
+    padding: 40px 25px 0 0;
+    max-width: 390px;
+    width: 35%;
 }
 @media(max-width: 900px) {
     .leadership .highlight {
         padding: 20px 0 0 0;
+        max-width: none;
+        width: 100%;
     }
 }
 .leadership-content .highlight .fa-arrow-right {
@@ -819,6 +824,14 @@
 }
 .leadership-content .right-column {
     padding-left: 0;
+    max-width: 790px;
+    width: 70%;
+}
+@media(max-width: 900px) {
+    .leadership-content .right-column {
+        max-width: none;
+        width: 100%;
+    }
 }
 .leadership-content .leadership-headshots-list-container {
     padding-top: 39px;
@@ -880,10 +893,10 @@
 .leadership-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 .leadership-list-item {
-    width: 33.3333%;
+    width: 33.333%;
     margin-bottom: 39px;
 }
 @media(max-width: 900px) {
@@ -961,10 +974,12 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     overflow-x: scroll;
+    scrollbar-width: none;
 }
 .timeline-entries::-webkit-scrollbar {
     display: none;
 }
+
 .timeline-entry {
     min-width: 300px;
 }
