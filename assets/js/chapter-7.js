@@ -56,9 +56,8 @@ function search(event) {
     if(searchTerm.length > 2) {
         matches = [];
         searchMatches.replaceChildren([]);
-        let xpath = `//div[@class='donor-list-container white-bg']//ul//li[contains(text(),'${searchTerm}')]`;
+        let xpath = `//div[@class='donor-list-container white-bg']//ul//li[contains(translate(text(), 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'${searchTerm.toLowerCase()}')]`;
         let matchingElements = document.evaluate(xpath, document, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null)
-        console.log(matchingElements.length);
         while(element = matchingElements.iterateNext()) {
             matches.push(element);
         }
@@ -72,7 +71,6 @@ function search(event) {
             });
         }
         searchMatches.querySelectorAll('li').forEach(el => {
-            console.log(el);
             el.addEventListener('click', function(event) {
                 selectMatch(event.target)
             });

@@ -27,6 +27,7 @@
         <link rel="stylesheet" href="assets/styles/chapter-2.css">
         <script src="assets/js/global.js"></script>
         <script src="assets/js/chapter-2.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
@@ -123,7 +124,7 @@
                                 <li><a class="white"  href="chapter-7.html#powering">Powering the Pavilion</a></li>
                                 <li><a class="white"  href="chapter-7.html#philanthropic-milestones">Philanthropic Milestones</a></li>
                                 <li><a class="white"  href="chapter-7.html#tara-miller">Spotlight on Tara Miller Melanoma Center</a></li>
-                                <li><a class="white"  href="chapter-7.html#glick">Legacy of John H. Glick, MD</a></li>
+                                <li><a class="white"  href="chapter-7.html#glick">Retirement of John H. Glick, MD</a></li>
                                 <li><a class="white"  href="chapter-7.html#inspiring-events">Inspiring Events</a></li>
                                 <li><a class="white"  href="chapter-7.html#leadership-council">Abramson Cancer Center Director's Leadership Council</a></li>
                                 <li><a class="white"  href="chapter-7.html#basser-center">Basser Center Advisory Board</a></li>
@@ -135,12 +136,12 @@
                 </div>
             </div>
         </div>
-        <div class="hero-background"></div>
+        <div class="hero-background" role="img" aria-label="A gloved hand administers an IV into a patient lying in a hospital bed."></div>
         <div class="container">
             <header>
                 <div class="logo">
-                    <a href="https://www.pennmedicine.org/cancer" class="logo-link">
-                        <img class="logo-image" src="assets/images/global/pm-acc-lockup_white.svg" />
+                    <a href="https://www.pennmedicine.org/cancer" class="logo-link" title="Penn Medicine Abramson Cancer Center">
+                        <img class="logo-image" src="assets/images/global/pm-acc-lockup_white.svg" alt="Penn Medicine Abramson Cancer Center logo" />
                     </a>
                 </div>
                 <div class="navigation">
@@ -156,88 +157,94 @@
                 <p class="hero-p white grotesk">The center's staff nimbly enacted innovative programs and randomized clinical trials to discover and provide lifesaving care to cancer patients across the healthcare system throughout the pandemic. All the while, these dedicated teams have continued to build their understanding of the most effective ways to keep patients and their families safe.</p>
                 <div class="red-line red-bg"></div>
             </div>
-            <div class="two-column-heading adjustments" id="adjusting">
-                <img src="assets/images/chapter-2/2_cancer_care_adjusts.jpg" class="adjustments-image">
-                <h2 class="standard dark-blue">Cancer Care Adjusts to COVID</h2>
-            </div>
-            <div class="two-column adjustments-content border-top border-bottom light-blue-border">
-                <div class="highlight left-column border-right light-blue-border">
-                    <img src="assets/images/global/1_arrow_small_red.svg" class="highlight-arrow">                    <p class="standard grey highlight-content">
-                        When the world came to a standstill in March 2020, Abramson Cancer Center staff knew they would need to find ways to continue serving their patients amid the pandemic. Fortunately, the cancer center had been piloting innovative care models on a small scale prior to the COVID-19 crisis, and was uniquely equipped to adapt to the new environment. Staff quickly scaled up these efforts to meet patient and community needs.
-                    </p>
+            <div data-aos="fade-zoom-in">
+                <div class="two-column-heading adjustments" id="adjusting">
+                    <img src="assets/images/chapter-2/2_cancer_care_adjusts.jpg" class="adjustments-image" alt="A masked medical worker sits across from a masked patient in a healthcare setting, preparing to administer an IV.">
+                    <h2 class="standard dark-blue">Cancer Care Adjusts to COVID</h2>
                 </div>
-                <div class="content right-column">
-                    <ul class="standard grey">
-                        <li><strong>Telemedicine:</strong> Whenever possible, Abramson Cancer Center providers conducted patient visits using <a class="blue"  href="chapter-1.html">telehealth technology</a>. Many appointments that did not require a physical exam or treatment that could only be administered at the center were conducted over phone or video.</li>
-                        <li><strong>Cancer Care @ Home:</strong> <a class="blue" target="_blank" href="https://pc3i.upenn.edu/projects/cancer-care-at-home-program/">This program</a> increased its patient load by 700% in the early days of the pandemic. <a class="blue" href="#at-home-care">Cancer Care @ Home</a> allows patients to receive injections and infusions from credentialed nurses without having to travel to the center.</li>
-                        <li><strong>Neoadjuvant (pre-surgery) Therapy:</strong> In some cases, Abramson Cancer Center physicians had to rethink treatment plans when surgery was not an immediate option. They worked together to determine how long certain cancer patients could postpone surgery, if needed-and what treatments to provide in the interim.</li>
-                        <li><strong>Immunologists Pivot:</strong> Cancer patients were among the cohorts of patients being monitored for their immune response to COVID-19 vaccination and treatment. Immune profiling work continues to help us better prepare for the future and save lives.</li>
-                    </ul>
+                <div class="two-column adjustments-content border-top border-bottom light-blue-border">
+                    <div class="highlight left-column border-right light-blue-border">
+                        <img src="assets/images/global/1_arrow_small_red.svg" class="highlight-arrow" alt="A red arrow pointing to the right">
+                        <p class="standard grey highlight-content">
+                            When the world came to a standstill in March 2020, Abramson Cancer Center staff knew they would need to find ways to continue serving their patients amid the pandemic. Fortunately, the cancer center had been piloting innovative care models on a small scale prior to the COVID-19 crisis, and was uniquely equipped to adapt to the new environment. Staff quickly scaled up these efforts to meet patient and community needs.
+                        </p>
+                    </div>
+                    <div class="content right-column">
+                        <ul class="standard grey">
+                            <li><strong>Telemedicine:</strong> Whenever possible, Abramson Cancer Center providers conducted patient visits using <a class="blue"  href="chapter-1.html">telehealth technology</a>. Many appointments that did not require a physical exam or treatment that could only be administered at the center were conducted over phone or video.</li>
+                            <li><strong>Cancer Care @ Home:</strong> <a class="blue" target="_blank" href="https://pc3i.upenn.edu/projects/cancer-care-at-home-program/">This program</a> increased its patient load by 700% in the early days of the pandemic. <a class="blue" href="#at-home-care">Cancer Care @ Home</a> allows patients to receive injections and infusions from credentialed nurses without having to travel to the center.</li>
+                            <li><strong>Neoadjuvant (pre-surgery) Therapy:</strong> In some cases, Abramson Cancer Center physicians had to rethink treatment plans when surgery was not an immediate option. They worked together to determine how long certain cancer patients could postpone surgery, if needed &mdash; and what treatments to provide in the interim.</li>
+                            <li><strong>Immunologists Pivot:</strong> Cancer patients were among the cohorts of patients being monitored for their immune response to COVID-19 vaccination and treatment. Immune profiling work continues to help us better prepare for the future and save lives.</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="genetic-counseling picture-molecule-content" id="telemedicine">
-            <div class="picture-molecule-content-background"></div>
-            <div class="picture-molecule-content-content dark-blue-bg">
+            <div class="picture-molecule-content-background" role="img" aria-label="A person engages in a telemedicine consultation with a healthcare worker on a laptop computer screen." data-aos="fade-zoom-in"></div>
+            <div class="picture-molecule-content-content dark-blue-bg" data-aos="fade-zoom-in">
                 <div class="picture-molecule-content-content-heading border-left border-bottom light-blue-border">
                     <h2 class="standard white">Genetic Counseling <br/>Embraces Telemedicine</h2>
                     <div class="red-line red-bg"></div>
                 </div>
                 <div class="picture-molecule-content-content-content border-left light-blue-border">
-                    <p class="standard white">Genetic counseling and testing could not be conducted in person for much of 2020. Yet, in cancer, genetic counseling is an integral part of healthcare-both for cancer patients and for those at high risk because genetic testing can aid in the prevention, early detection and treatment of hereditary cancers. In fact, through genetic testing, physicians can identify specific gene mutations that can help them determine which type of treatment is most likely to be successful. This is essential to our patients and families.</p>
+                    <p class="standard white">Genetic counseling and testing could not be conducted in person for much of 2020. Yet, in cancer, genetic counseling is an integral part of healthcare &mdash; both for cancer patients and for those at high risk because genetic testing can aid in the prevention, early detection and treatment of hereditary cancers. In fact, through genetic testing, physicians can identify specific gene mutations that can help them determine which type of treatment is most likely to be successful. This is essential to our patients and families.</p>
                     <p class="standard white">That's why our genetic counseling teams quickly transitioned to telehealth just a few weeks after the start of the pandemic. In fact, these changes helped the Basser Center for BRCA reach 25% more people in 2020 than in 2019.</p>
                     <h3 class="in-content lighter-blue">Turning to Technology</h3>
                     <p class="standard white">Telehealth, the use of technology to provide healthcare across any distance, is not new, and the pandemic certainly hastened its adoption by healthcare providers and patients alike. Though it took some adjustment, telehealth visits have become a smooth and reliable way to provide genetic counseling services. In the early weeks of the pandemic, clinicians and patients worked together to adapt, learning the technology and platforms required to make telehealth successful.</p>
-                    <p class="standard white">Prior to their appointments, patients receive an electronic questionnaire to complete that asks about their health and family histories-a practice that has been in place for several years. Genetic counselors can access this information via a HIPAA-compliant virtual private network. Additional records can be uploaded into patient portals, by email or by fax.</p>
-                    <p class="standard white">The nuts and bolts of what genetic counselors do-review each patient's medical and family histories and personal risk assessments, facilitate genetic testing and counsel patients on their options-can be done via telehealth. If genetic testing is ordered, the patient can often provide a saliva sample via a laboratory mail-in test kit. Occasionally, patients are referred for in-person blood draws. Test results are then delivered over the phone, and patients can schedule a virtual follow-up consultation with a physician for further review and medical care recommendations, if desired.</p>
+                    <p class="standard white">Prior to their appointments, patients receive an electronic questionnaire to complete that asks about their health and family histories &mdash; a practice that has been in place for several years. Genetic counselors can access this information via a HIPAA-compliant virtual private network. Additional records can be uploaded into patient portals, by email or by fax.</p>
+                    <p class="standard white">The nuts and bolts of what genetic counselors do-review each patient's medical and family histories and personal risk assessments, facilitate genetic testing and counsel patients on their options &mdash; can be done via telehealth. If genetic testing is ordered, the patient can often provide a saliva sample via a laboratory mail-in test kit. Occasionally, patients are referred for in-person blood draws. Test results are then delivered over the phone, and patients can schedule a virtual follow-up consultation with a physician for further review and medical care recommendations, if desired.</p>
                     <h3 class="in-content lighter-blue">Telehealth Is Here to Stay</h3>
                     <p class="standard white">While in-person visits have since resumed, some patients continue to opt for telehealth visits for genetic counseling for safety and convenience. For many patients, telehealth means not having to take time off work or arrange for transportation to and from an appointment.</p>
-                    <p class="standard white">The pandemic forced the proliferation of telehealth in many specialties but, in genetic counseling, this easy way of connecting with patients is undoubtedly here to stay. It is our hope that we will continue finding new uses for telehealth-such as enabling greater access to clinical trials-so all patients, no matter their location or ability to travel, can get the care they need.</p>
+                    <p class="standard white">The pandemic forced the proliferation of telehealth in many specialties but, in genetic counseling, this easy way of connecting with patients is undoubtedly here to stay. It is our hope that we will continue finding new uses for telehealth &mdash; such as enabling greater access to clinical trials &mdash; so all patients, no matter their location or ability to travel, can get the care they need.</p>
                 </div>
             </div>
         </div>
         <div class="container">
-            <div class="two-column-heading at-home-care" id="at-home-care">
-                <img src="assets/images/chapter-2/2_cancer_care_at_home.jpg" class="at-home-care-image">
-                <h3 class="standard red smaller">At Home Care</h3>
-                <h2 class="standard dark-blue">COVID-19 Propels <br/>Cancer Care @ Home Program</h2>
-            </div>
-            <div class="two-column at-home-care-content border-top border-bottom light-blue-border">
-                <div class="highlight left-column border-right light-blue-border">
-                    <img src="assets/images/global/1_arrow_small_red.svg" class="highlight-arrow">                    <p class="standard grey highlight-content">
-                        A year before the pandemic, Stat published an article, senior-authored by Penn Center for Cancer Care Innovation (PC3I) Director Justin E. Bekelman, MD, titled "Cancer treatment at home is safe, effective and closer to happening than you think."
-                    </p>
-                    <p class="standard grey highlight-content">
-                        Even Dr. Bekelman had no idea just how close that would be.
-                    </p>
+            <div data-aos="fade-zoom-in">
+                <div class="two-column-heading at-home-care" id="at-home-care">
+                    <img src="assets/images/chapter-2/2_cancer_care_at_home.jpg" class="at-home-care-image" alt="Lisa Oney stands in her kitchen, holding her baby and talking with her young daughter. She wears a mask over her mouth and a backpack, which has a pump attached to it.">
+                    <h3 class="standard red smaller">At Home Care</h3>
+                    <h2 class="standard dark-blue">COVID-19 Propels <br/>Cancer Care @ Home Program</h2>
                 </div>
-                <div class="content right-column">
-                    <p class="standard grey">
-                        Successful models for home infusion of cancer drugs existed internationally before COVID-19-and the building blocks were in place at Penn Medicine. Yet, at the time, the at-home administration of cancer drugs was nearly unheard of in the United States. But in November 2019, under PC3I's direction, Penn Medicine began planning for the Cancer Care @ Home program. Shortly after its launch in February 2020, the program's value was made extraordinarily clear by the emergence of COVID-19. Suddenly, home care was needed, especially for immunocompromised cancer patients. Together with Penn Home Infusion, Dr. Bekelman and his staff implemented the program in three distinct ways:
-                    </p>
-                    <ul class="standard grey">
-                        <li>They empowered a cross-functional team from the Abramson Cancer Center, Penn Home Infusion Therapy, and the Hospital of the University of Pennsylvania, to make change.</li>
-                        <li>They reimagined the status quo, not allowing "the way it's been done" to hold them back.</li>
-                        <li>They selected appropriate treatments and patient populations to match the safety and quality of infusions in the clinic.</li>
-                    </ul>
-                    <p class="standard grey">
-                        "Many cancer patients continue to need ongoing monthly therapies, sometimes for six to 10 years-a significant burden that often means taking time off from work," Dr. Bekelman explains. "Now, some can receive their therapies in their home at their convenience."
-                    </p>
-                    <p class="standard grey">
-                        Lisa Oney (pictured above), 34, is one such patient. A backpack carries her chemotherapy medicine, and with the aid of a pump, she receives treatment while on the go and tending to her two small children. Traditionally, the lymphoma she has would have required days-long hospital stays every month for over a period of six months, which would have been extremely challenging for her and her family. But, with the Cancer Care @ Home program, she is able to live her daily life.
-                    </p>
-                    <p class="standard grey">
-                        "I'm able to walk around, and take care of my kids," she told The Philadelphia Inquirer last year. "I can go places."
-                    </p>
-                    <h3 class="in-content blue">Speeding Up Operations</h3>
-                    <p class="standard grey">
-                        In the early days of the pandemic, patients across the country were forced to put off cancer treatment due to the dangers posed by COVID-19, delaying potentially lifesaving medicine. So, Penn Medicine accelerated the Cancer Care @ Home program and focused on helping immunocompromised patients continue their treatment from home. This, in turn, benefitted everybody-as it allowed patients not eligible for at-home treatment to get their treatments at Abramson Cancer Center in a less crowded infusion space.
-                    </p>
+                <div class="two-column at-home-care-content border-top border-bottom light-blue-border">
+                    <div class="highlight left-column border-right light-blue-border">
+                        <img src="assets/images/global/1_arrow_small_red.svg" class="highlight-arrow" alt="A red arrow pointing to the right">
+                        <p class="standard grey highlight-content">
+                            A year before the pandemic, Stat published an article, senior-authored by Penn Center for Cancer Care Innovation (PC3I) Director Justin E. Bekelman, MD, titled "Cancer treatment at home is safe, effective and closer to happening than you think."
+                        </p>
+                        <p class="standard grey highlight-content">
+                            Even Dr. Bekelman had no idea just how close that would be.
+                        </p>
+                    </div>
+                    <div class="content right-column">
+                        <p class="standard grey">
+                            Successful models for home infusion of cancer drugs existed internationally before COVID-19 &mdash; and the building blocks were in place at Penn Medicine. Yet, at the time, the at-home administration of cancer drugs was nearly unheard of in the United States. But in November 2019, under PC3I's direction, Penn Medicine began planning for the Cancer Care @ Home program. Shortly after its launch in February 2020, the program's value was made extraordinarily clear by the emergence of COVID-19. Suddenly, home care was needed, especially for immunocompromised cancer patients. Together with Penn Home Infusion, Dr. Bekelman and his staff implemented the program in three distinct ways:
+                        </p>
+                        <ul class="standard grey">
+                            <li>They empowered a cross-functional team from the Abramson Cancer Center, Penn Home Infusion Therapy, and the Hospital of the University of Pennsylvania, to make change.</li>
+                            <li>They reimagined the status quo, not allowing "the way it's been done" to hold them back.</li>
+                            <li>They selected appropriate treatments and patient populations to match the safety and quality of infusions in the clinic.</li>
+                        </ul>
+                        <p class="standard grey">
+                            "Many cancer patients continue to need ongoing monthly therapies, sometimes for six to 10 years &mdash; a significant burden that often means taking time off from work," Dr. Bekelman explains. "Now, some can receive their therapies in their home at their convenience."
+                        </p>
+                        <p class="standard grey">
+                            Lisa Oney (pictured above), 34, is one such patient. A backpack carries her chemotherapy medicine, and with the aid of a pump, she receives treatment while on the go and tending to her two small children. Traditionally, the lymphoma she has would have required days-long hospital stays every month for over a period of six months, which would have been extremely challenging for her and her family. But, with the Cancer Care @ Home program, she is able to live her daily life.
+                        </p>
+                        <p class="standard grey">
+                            "I'm able to walk around, and take care of my kids," she told <em>The Philadelphia Inquirer</em> last year. "I can go places."
+                        </p>
+                        <h3 class="in-content blue">Speeding Up Operations</h3>
+                        <p class="standard grey">
+                            In the early days of the pandemic, patients across the country were forced to put off cancer treatment due to the dangers posed by COVID-19, delaying potentially lifesaving medicine. So, Penn Medicine accelerated the Cancer Care @ Home program and focused on helping immunocompromised patients continue their treatment from home. This, in turn, benefitted everybody &mdash; as it allowed patients not eligible for at-home treatment to get their treatments at Abramson Cancer Center in a less crowded infusion space.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="pull-quote">
+            <div class="pull-quote" data-aos="fade-zoom-in">
                 <div class="pull-quote-image-container">
-                    <img src="assets/images/chapter-2/2_cancer_care_at_home_callout.png" class="pull-quote-image">
+                    <img src="assets/images/chapter-2/2_cancer_care_at_home_callout.png" class="pull-quote-image" alt="Headshot of Dr. Justin E. Bekelman.">
                 </div>
                 <div class="pull-quote-content">
                     <p class="quote red">
@@ -248,7 +255,7 @@
                     </p>
                 </div>
             </div>
-            <div class="two-column at-home-care-content-2 border-top border-bottom light-blue-border">
+            <div class="two-column at-home-care-content-2 border-top border-bottom light-blue-border" data-aos="fade-zoom-in">
                 <div class="highlight left-column border-right light-blue-border">
                     <div class="highlight-content"></div>
                 </div>
@@ -276,8 +283,8 @@
             <div class="light-molecule-feature-bg patient-story-bg"></div>
             <div class="container">
                 <div class="light-molecule-feature patient-story white-bg">
-                    <img src="assets/images/chapter-2/2_patient_story.jpg" class="light-molecule-feature-image patient-story-image">
-                    <div class="light-molecule-feature-text patient-story-text">
+                    <img src="assets/images/chapter-2/2_patient_story.jpg" class="light-molecule-feature-image patient-story-image" alt="Lindsay Roberts, her fiance Ben and two children stand together and posed before a stopped train on a train track." data-aos="fade-zoom-in">
+                    <div class="light-molecule-feature-text patient-story-text" data-aos="fade-zoom-in">
                         <div class="light-molecule-feature-heading patient-story-heading border-left border-bottom light-blue-border">
                             <h3 class="standard smaller light-blue">Patient Story</h3>
                             <h2 class="standard dark-blue">Finding Joy and Power <br/>in the Unexpected</h2>
@@ -288,7 +295,7 @@
                                 In August 2018, 36-year-old Lindsay Roberts' life was full, happy and "normal."
                             </p>
                             <p class="standard grey">
-                                Lindsay and her fianc&eacute;, Ben, were parents to a healthy 18-month-old daughter, Simone, with whom they had just returned home from a family trip to Europe. Lindsay was enjoying planning her fall wedding to Ben and refurbishing their new 150-year-old Germantown home, all the while preparing to return to the work she loved-being a preschool teacher.
+                                Lindsay and her fianc&eacute;, Ben, were parents to a healthy 18-month-old daughter, Simone, with whom they had just returned home from a family trip to Europe. Lindsay was enjoying planning her fall wedding to Ben and refurbishing their new 150-year-old Germantown home, all the while preparing to return to the work she loved &mdash; being a preschool teacher.
                             </p>
                             <p class="standard grey">
                                 Their lives became even happier when Lindsay learned she was pregnant with their second child, but everything changed a few weeks later when she suffered a seizure and was found unconscious in her car. After being rushed to a nearby hospital and enduring weeks of agonizing unknowns, a scan revealed Lindsay had an oligodendroglioma tumor: a slow-growing type of brain cancer that required extensive treatment.
@@ -300,7 +307,7 @@
                                 "From the moment I came to Penn, Dr. O'Rouke helped me gain control and feel safe," Lindsay recalls. "He said to me, 'I'm going to get you through this. We can keep your baby safe and get you well. It's going to be a tough few years, but we'll be there the whole way.'"
                             </p>
                             <p class="standard grey">
-                                And Dr. O'Rourke-as well as Lindsay's entire care team-was indeed with her and her family throughout their entire ordeal.
+                                And Dr. O'Rourke &mdash; as well as Lindsay's entire care team &mdash; was indeed with her and her family throughout their entire ordeal.
                             </p>
                             <p class="standard grey">
                                 "What got us through was that the team paid so much attention to me," Lindsay says. "I felt like they were my doctors, from the beginning. I just felt incredibly comfortable and confident with them."
@@ -312,7 +319,7 @@
                                     <div class="grey-bar"></div>
                                 </div>
                                 <div class="inline-pull-quote-image-container">
-                                    <img src="assets/images/chapter-2/2_patient_story_callout.jpg" class="inline-pull-quote-image">
+                                    <img src="assets/images/chapter-2/2_patient_story_callout.jpg" class="inline-pull-quote-image" alt="Lindsay and her newborn baby snuggling with her just after birth.">
                                 </div>
                             </div>
                             <h3 class="in-content blue">A New Plan</h3>
@@ -320,10 +327,10 @@
                                 Dr. O'Rourke, along with medical oncologist Arati S. Desai, MD, radiation oncologist Robert A. Lustig, MD, and specialists in Maternal Fetal Medicine, worked together to devise a plan that would see Lindsay through a healthy pregnancy and then surgically remove her tumor, following up with six weeks of radiation and eight rounds of chemotherapy.
                             </p>
                             <p class="standard grey">
-                                "The Maternal Fetal Medicine team's phenomenal care helped me begin to relish my pregnancy and envision my family's future in a way I hadn't been able to before," Lindsay says. "My fears of cancer were still there-for sure-but the way we were cared for made a big difference."
+                                "The Maternal Fetal Medicine team's phenomenal care helped me begin to relish my pregnancy and envision my family's future in a way I hadn't been able to before," Lindsay says. "My fears of cancer were still there &mdash; for sure &mdash; but the way we were cared for made a big difference."
                             </p>
                             <p class="standard grey">
-                                In 2019, Lindsay, Ben and Simone welcomed Isaac "Ziggy" Johnson to the family. Under the watchful care of OB/GYN Adi Hirshberg, MD, Ziggy came into the world healthy and strong. Lindsay's care team allowed as much time as possible for her to take in these beautiful early moments as a mother of two-to have an opportunity to breastfeed, to be present with her family. Six weeks after Ziggy's arrival, Dr. O'Rourke and his team performed brain surgery on Lindsay. Dr. O'Rourke opted for an awake craniotomy (during which the patient is in a twilight state of consciousness) to remove the tumor while being careful to preserve Lindsay's speech.
+                                In 2019, Lindsay, Ben and Simone welcomed Isaac "Ziggy" Johnson to the family. Under the watchful care of OB/GYN Adi Hirshberg, MD, Ziggy came into the world healthy and strong. Lindsay's care team allowed as much time as possible for her to take in these beautiful early moments as a mother of two &mdash; to have an opportunity to breastfeed, to be present with her family. Six weeks after Ziggy's arrival, Dr. O'Rourke and his team performed brain surgery on Lindsay. Dr. O'Rourke opted for an awake craniotomy (during which the patient is in a twilight state of consciousness) to remove the tumor while being careful to preserve Lindsay's speech.
                             </p>
                             <p class="standard grey">
                                 "And while that surgery was the first step of fighting my illness, I am indebted to Dr. O'Rourke and his team, and to Drs. Desai and Lustig, for making me feel like my cancer was not the end of my world," she says. "I love being a preschool teacher, so imagining a world where I might not be able to communicate in the same way was terrifying. My team made sure I didn't have to miss out on any of those precious moments."
@@ -339,7 +346,7 @@
                                 Today, Lindsay's cancer is in remission, and she is settling into her new life.
                             </p>
                             <p class="standard grey">
-                                "Looking back throughout this incredibly difficult journey, I always felt hopeful. I held so much hope and positivity because of my doctors and Penn Medicine. I'm carrying that hope forward-it's coming with me wherever I go, no matter what."
+                                "Looking back throughout this incredibly difficult journey, I always felt hopeful. I held so much hope and positivity because of my doctors and Penn Medicine. I'm carrying that hope forward &mdash; it's coming with me wherever I go, no matter what."
                             </p>
                         </div>
                     </div>
@@ -347,7 +354,7 @@
             </div>
         </div>
         <div class="footer-background dark-blue-bg">
-            <div class="container">
+            <div class="container" data-aos="fade-zoom-in">
                 <div class="next-chapter">
                     <a href="chapter-3.html" class="chapter-link border-top border-bottom blue-border">
                         <div class="chapter-information border-right blue-border">
@@ -369,8 +376,8 @@
                 </div>
                 <footer>
                     <div class="footer-links">
-                        <a href="#" class="footer-logo-link">
-                            <img src="assets/images/global/pm-acc-lockup_white.svg" class="footer-logo">
+                         <a href="#" class="footer-logo-link" title="Penn Medicine Abramson Cancer Center">
+                            <img src="assets/images/global/pm-acc-lockup_white.svg" class="footer-logo" alt="Penn Medicine Abramson Cancer Center logo">
                         </a>
                         <ul class="footer-links-list">
                             <li class="footer-link-list-item">
@@ -398,14 +405,18 @@
                     </div>
                     <div class="footer-icons">
                         <a href="#" class="fifty-icon-link">
-                            <img src="assets/images/global/footer_50th_anniversary_graphic_white.svg" class="fifty-icon">
+                            <img src="assets/images/global/footer_50th_anniversary_graphic_white.svg" class="fifty-icon" alt="Penn Medicine's Abramson Cancer Center 50th anniversary logo">
                         </a>
                         <a href="#" class="nci-icon-link">
-                            <img src="assets/images/global/footer_nci_designation.png" class="nci-icon">
+                            <img src="assets/images/global/footer_nci_designation.png" class="nci-icon"  alt="The National Cancer Institute's designation logo.">
                         </a>
                     </div>
                 </footer>
             </div>
         </div>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
