@@ -11,6 +11,9 @@ window.addEventListener("DOMContentLoaded", function() {
     });
 
     document.querySelector(".donor-search-input").addEventListener('keyup', function(event) {
+        var txt = document.createElement("textarea");
+        txt.innerHTML = event.target.value.replace("'", "&rsquo;");
+        event.target.value = txt.value;
         search(event);
     });
 
